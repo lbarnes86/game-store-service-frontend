@@ -12,7 +12,7 @@ function NavbarApp(props) {
     <Nav variant="tabs" defaultActiveKey='/' >
    
     <Nav.Item >
-      <Nav.Link eventKey="/invoices" href="/invoices">Home</Nav.Link>
+      <Nav.Link eventKey="/" href="/">Home</Nav.Link>
     </Nav.Item>
     <Nav.Item >
       <Nav.Link eventKey="/consoles" href="/consoles">Consoles</Nav.Link>
