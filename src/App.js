@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/invoices" element={<Invoice />} />
+          <Route path="/" element={<Invoice />} />
           
           <Route path="/consoles" element={<Consoles />} />
          
